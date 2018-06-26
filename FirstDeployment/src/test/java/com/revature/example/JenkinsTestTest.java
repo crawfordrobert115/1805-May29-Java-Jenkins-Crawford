@@ -25,6 +25,6 @@ public class JenkinsTestTest {
 	
 	@Test
 	public void testAnEmptyString() {
-		assertEquals("Hello, Jenkins!", sample.testJenkins());
+		assertEquals("Should return true", true, sample.testJenkins());
 	}
 }
